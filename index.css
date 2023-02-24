@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.sb-icon-geo,
+.time {
+  line-height: 21px;
+  font-weight: 600;
+}
+.time {
+  position: relative;
+  letter-spacing: -0.32px;
+}
+.sb-icon-geo {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.masters-status-bar-parts-a {
+  position: relative;
+  width: 16px;
+  height: 21px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--caption2-regular-size);
+}
+.time-geo {
+  position: absolute;
+  top: 14px;
+  left: calc(50% - 170.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.time-geo-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 388px;
+  height: 920px;
+  overflow: hidden;
+  text-align: right;
+  font-size: var(--font-size-xl);
+  color: var(--light-labels-1primary);
+  font-family: var(--body-body-17);
+}
+.masters-status-bar-parts-l {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(56px);
+  width: 96px;
+  height: 44px;
+}
+.masters-status-bar-parts-a1,
+.masters-status-bar-parts-a2 {
+  position: relative;
+  width: 20px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.masters-status-bar-parts-a2 {
+  width: 16px;
+}
+.level-8-icon,
+.level-start-icon {
+  position: relative;
+  width: 2px;
+  height: 8.5px;
+  flex-shrink: 0;
+}
+.level-8-icon {
+  display: none;
+  opacity: 0.2;
+}
+.battery-levels {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.levels,
+.vector-icon {
+  position: absolute;
+  top: 4.5px;
+  left: 2px;
+  width: 16px;
+  height: 8.5px;
+}
+.vector-icon {
+  top: 2.5px;
+  left: 0;
+  width: 26.5px;
+  height: 12.5px;
+  opacity: 0.5;
+}
+.masters-status-bar-parts-a3 {
+  position: relative;
+  width: 28px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.indicators {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.masters-status-bar-parts-r {
+  position: absolute;
+  top: 0;
+  right: 0;
+  backdrop-filter: blur(56px);
+  width: 96px;
+  height: 44px;
+}
+.masters-status-bar,
+.status-bars-status-basic {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 44px;
+}
+.status-bars-status-basic {
+  height: 5.21%;
+  bottom: 94.79%;
+}
+.title {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.37px;
+  font-weight: 600;
+}
+.title-wrapper,
+.title1 {
+  position: absolute;
+  display: flex;
+}
+.title-wrapper {
+  height: 6.09%;
+  width: 91.79%;
+  top: 68.57%;
+  right: 4.1%;
+  bottom: 25.34%;
+  left: 4.1%;
+  border-radius: var(--br-sm);
+  background: linear-gradient(90deg, #9356fb, #d772ea);
+  flex-direction: row;
+  padding: var(--padding-lg);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.title1 {
+  width: 62.56%;
+  top: 13.26%;
+  left: 8.21%;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.37px;
+  color: var(--light-labels-1primary);
+  text-align: left;
+  align-items: center;
+}
+.frame-icon {
+  position: absolute;
+  height: 26.04%;
+  width: 92.16%;
+  top: 31.74%;
+  right: 3.92%;
+  bottom: 42.22%;
+  left: 3.92%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-child,
+.group-item {
+  position: absolute;
+  height: 29.41%;
+  width: 100%;
+  top: 35.29%;
+  right: 0;
+  bottom: 35.29%;
+  left: 0;
+  background-color: var(--color-blueviolet);
+}
+.group-item {
+  top: 100%;
+  right: -35.29%;
+  bottom: -29.41%;
+  left: 35.29%;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.rectangle-parent {
+  position: absolute;
+  height: 7.83%;
+  width: 18.46%;
+  top: 25.65%;
+  right: 11.03%;
+  bottom: 66.52%;
+  left: 70.51%;
+  opacity: 0.05;
+}
+.rectangle-container,
+.rectangle-group {
+  position: absolute;
+  height: 6.55%;
+  width: 15.45%;
+  top: 19.13%;
+  right: -0.58%;
+  bottom: 74.32%;
+  left: 85.13%;
+  opacity: 0.05;
+}
+.rectangle-container {
+  height: 4.78%;
+  width: 11.28%;
+  top: 15.87%;
+  right: 18.72%;
+  bottom: 79.35%;
+  left: 70%;
+}
+.health-care-app-onboarding {
+  position: relative;
+  background: linear-gradient(180deg, #fff, #f0ecfa 43.75%, #fef7ee 99.48%);
+  width: 100%;
+  height: 920px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--background-primary);
+  font-family: var(--font-sf-pro-display);
+}
